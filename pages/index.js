@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import Header from "./header";
 import Link from "next/link";
 import Image from "next/image";
+import Footer from "./footer";
 
 export default function Home() {
 
@@ -145,38 +146,63 @@ export default function Home() {
 
             <section className="row">
               <div className="col-sm-6">
-              <section className="home-img-section">
-              <Image src="/home-lft-1.jpeg" alt="Acoustic Container"
-                width={2500}
-                height={620}
-                quality={100} />
-              <div className="img-section-content">
-                <div>
-                  <h1>Solar Panels </h1>
-                  <p>Schedule a Virtual Consultation</p>
-                </div>
+                <section className="home-img-section">
+                  <Image src="/home-lft-1.jpeg" alt="Acoustic Container"
+                    width={2500}
+                    height={620}
+                    quality={100} />
+                  <div className="img-section-content">
+                    <div>
+                      <h1>Solar Panels </h1>
+                      <p>Schedule a Virtual Consultation</p>
+                    </div>
 
-                <div>
-                  <div className="btn-sec">
-                    <button className="theme-btn">Contact Us</button>
-                    <button className="theme-btn-hollow">Learn More</button>
+                    <div>
+                      <div className="btn-sec">
+                        <button className="theme-btn">Contact Us</button>
+                        <button className="theme-btn-hollow">Learn More</button>
+                      </div>
+                    </div>
+
+
                   </div>
-                </div>
-
-
-              </div>
-            </section>
+                </section>
               </div>
               <div className="col-sm-6">
-              <section className="home-img-section">
-              <Image src="/home-rgt-2.jpeg" alt="Acoustic Container"
-                width={2500}
-                height={620}
-                quality={100} />
+                <section className="home-img-section">
+                  <Image src="/home-rgt-2.jpeg" alt="Acoustic Container"
+                    width={2500}
+                    height={620}
+                    quality={100} />
+                  <div className="img-section-content">
+                    <div>
+                      <h1>Solar Roof</h1>
+                      <p>Produce Clean Energy From Your Roof</p>
+                    </div>
+
+                    <div>
+                      <div className="btn-sec">
+                        <button className="theme-btn">Contact Us</button>
+                        <button className="theme-btn-hollow">Learn More</button>
+                      </div>
+                    </div>
+
+
+                  </div>
+                </section>
+              </div>
+            </section>
+
+            <section className="home-img-section mb-5" >
+              <video src="/home-vdo-bottom.mp4"
+                autoPlay
+                muted
+                loop
+                playsInline />
               <div className="img-section-content">
                 <div>
-                  <h1>Solar Roof</h1>
-                  <p>Produce Clean Energy From Your Roof</p>
+                  <h1>Model Y </h1>
+                  <p>0% APR With Purchase of FSD</p>
                 </div>
 
                 <div>
@@ -189,15 +215,13 @@ export default function Home() {
 
               </div>
             </section>
-              </div>
-            </section>
-
-            <section className="p-5" >
-
-            </section>
+            
           </div>
         </div>
 
+        {/* Footer-Start */}
+        <Footer> </Footer>
+        {/* Footer-End */}
 
       </main>
 
