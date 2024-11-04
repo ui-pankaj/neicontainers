@@ -6,6 +6,7 @@ import AccousticSolutionMenu from "@/components/mega-menus/accoustic-solution-me
 import CargoContainersMenu from "@/components/mega-menus/cargo-containers-menu";
 import PortaCabinMenu from "@/components/mega-menus/porta-cabin-menu";
 import RentalMenu from "@/components/mega-menus/rental-menu";
+import 'rsuite/dist/rsuite.min.css';
 
 export default function Header() {
 
@@ -34,65 +35,68 @@ export default function Header() {
 
       <header>
         <div className="navbar-container header-sec">
-          <nav className="navbar">
-            <div className="main-logo">
-              <img src="/nei-text-logo.svg" />
-            </div>
-            <ul className="nav-list">
-              <li className="nav-item">
-                <a href="#">Acoustic Solutions</a>
+          <div className="container">
 
-                {/* mega-menu */}
-                <div className="mega-menu">
-                  <AccousticSolutionMenu></AccousticSolutionMenu>
-                </div>
-                {/* mega-menu */}
+            <nav className="navbar">
+              <div className="main-logo">
+                <img src="/nei-text-logo.svg" />
+              </div>
+              <ul className="nav-list">
+                <li className="nav-item">
+                  <a href="#">Acoustic Solutions</a>
 
-              </li>
-              <li className="nav-item">
-                <a href="#">Cargo Containers</a>
+                  {/* mega-menu */}
+                  <div className="mega-menu">
+                    <AccousticSolutionMenu></AccousticSolutionMenu>
+                  </div>
+                  {/* mega-menu */}
 
-                  {/* mega-menus */}
-                <div className="mega-menu">
-                    <CargoContainersMenu/>
-                </div>
-                  {/* mega-menus */}
-
-              </li>
-              <li className="nav-item">
-                <a href="#">Porta Cabin</a>
-
-                {/* mega-menus */}
-                <div className="mega-menu">
-                 <PortaCabinMenu />
-                </div>
-                {/* mega-menus */}
-
-              </li>
-              <li className="nav-item">
-                <a href="#">Rental</a>
-
-                  {/* mega-menus */}
-                <div className="mega-menu">
-                <RentalMenu/>
-                </div>
-                  {/* mega-menus */}
-
-              </li>
-
-            </ul>
-            <div className="main-menu-right">
-              <ul className="menu-icons">
-                <li>
-                  <Link href="#"><span><img src="/info.svg" /></span></Link>
                 </li>
-                <li>
-                  <Link href="#"><span><img src="/circle-phone.svg" /></span></Link>
+                <li className="nav-item">
+                  <a href="#">Cargo Containers</a>
+
+                  {/* mega-menus */}
+                  <div className="mega-menu">
+                    <CargoContainersMenu />
+                  </div>
+                  {/* mega-menus */}
+
+                </li>
+                <li className="nav-item">
+                  <a href="#">Porta Cabin</a>
+
+                  {/* mega-menus */}
+                  <div className="mega-menu">
+                    <PortaCabinMenu />
+                  </div>
+                  {/* mega-menus */}
+
+                </li>
+                <li className="nav-item">
+                  <a href="#">Rental</a>
+
+                  {/* mega-menus */}
+                  <div className="mega-menu">
+                    <RentalMenu />
+                  </div>
+                  {/* mega-menus */}
+
                 </li>
 
               </ul>
-            </div>
-          </nav>
+              <div className="main-menu-right">
+                <ul className="menu-icons">
+                  <li>
+                    <Link href="#"><span><img src="/info.svg" /></span></Link>
+                  </li>
+                  <li>
+                    <Link href="#"><span><img src="/circle-phone.svg" /></span></Link>
+                  </li>
+
+                </ul>
+              </div>
+            </nav>
+          </div>
         </div>
 
       </header>

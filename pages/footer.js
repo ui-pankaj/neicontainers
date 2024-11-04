@@ -59,7 +59,7 @@ export default function Footer() {
                     </li>
 
                     <li>
-                      <Link href="#" ><i class="fa-solid fa-angle-right"></i> Contact Us</Link>
+                      <Link href="/contact-us" ><i class="fa-solid fa-angle-right"></i> Contact Us</Link>
                     </li>
                   </ul>
                 </div>
