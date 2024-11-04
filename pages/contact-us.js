@@ -50,6 +50,7 @@ export default function ContactUs() {
               <div className="row">
                 <div className="col-sm-8">
                   <div className="get-in-touch-lft">
+                    <img src="/nei-text-logo-yellow.svg" className="ylow-bg-logo" />
                     <div className="contact-us-map">
                       <iframe
                         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d18297.956723931035!2d76.7959028030925!3d28.203908625930296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1730607886577!5m2!1sen!2sin"
@@ -71,7 +72,7 @@ export default function ContactUs() {
                     <ul>
                       <li>
                         <span>
-                          <i class="fa-solid fa-location-dot"></i>
+                          <i className="fa-solid fa-location-dot"></i>
                         </span>
                         <span>79 Milestone, NH-48, Dharuhera - 123106
                           (Near Reliance Petrol Pump Village Nikhri)
@@ -80,13 +81,13 @@ export default function ContactUs() {
 
                       <li>
                         <span>
-                          <i class="fa-solid fa-phone"></i>
+                          <i className="fa-solid fa-phone"></i>
                         </span>
                         <span>+91-9414013952</span>
                       </li>
                       <li>
                         <span>
-                          <i class="fa-solid fa-envelope"></i>
+                          <i className="fa-solid fa-envelope"></i>
                         </span>
                         <span>ngepritam@gmail.com</span>
                       </li>
@@ -96,10 +97,10 @@ export default function ContactUs() {
                     </ul>
 
                     <div className="contact-socials">
-                      <span><i class="fab fa-facebook"></i></span>
-                      <span><i class="fab fa-instagram"></i></span>
-                      <span><i class="fab fa-twitter"></i></span>
-                      <span><i class="fab fa-youtube"></i></span>
+                      <span><i className="fab fa-facebook"></i></span>
+                      <span><i className="fab fa-instagram"></i></span>
+                      <span><i className="fab fa-twitter"></i></span>
+                      <span><i className="fab fa-youtube"></i></span>
                       <span></span>
                     </div>
                   </div>
@@ -118,7 +119,7 @@ export default function ContactUs() {
                   <Form model={model}>
                     <TextField name="name" placeholder="Full Name" />
                     <TextField name="email" placeholder="Email Address" />
-                    <TextField name="message" placeholder="Your Message" />
+                    <TextField name="message" className="msg-input" placeholder="Your Message" />
                     <ButtonToolbar>
                       <Button className="theme-btn-hollow" type="submit">
                         Send Message
@@ -137,7 +138,7 @@ export default function ContactUs() {
           </div>
 
           <div className="build-sec">
-            <div class="container">
+            <div className="container">
               <div className="row">
                 <div className="col-sm-8">
                   <h4>

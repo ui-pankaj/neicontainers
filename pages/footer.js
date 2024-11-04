@@ -25,19 +25,19 @@ export default function Footer() {
                   <h4 className="">Quick Links</h4>
                   <ul>
                     <li>
-                      <Link href="#" > <i class="fa-solid fa-angle-right"></i> Home</Link>
+                      <Link href="#" > <i className="fa-solid fa-angle-right"></i> Home</Link>
                     </li>
 
                     <li>
-                      <Link href="#" > <i class="fa-solid fa-angle-right"></i> Services</Link>
+                      <Link href="#" > <i className="fa-solid fa-angle-right"></i> Services</Link>
                     </li>
 
                     <li>
-                      <Link href="#" ><i class="fa-solid fa-angle-right"></i> Products</Link>
+                      <Link href="#" ><i className="fa-solid fa-angle-right"></i> Products</Link>
                     </li>
 
                     <li>
-                      <Link href="#" ><i class="fa-solid fa-angle-right"></i> About Us</Link>
+                      <Link href="#" ><i className="fa-solid fa-angle-right"></i> About Us</Link>
                     </li>
                   </ul>
                 </div>
@@ -47,19 +47,19 @@ export default function Footer() {
                   <h4 className="">Support</h4>
                   <ul>
                     <li>
-                      <Link href="#" > <i class="fa-solid fa-angle-right"></i> Shipping Policy</Link>
+                      <Link href="#" > <i className="fa-solid fa-angle-right"></i> Shipping Policy</Link>
                     </li>
 
                     <li>
-                      <Link href="#" > <i class="fa-solid fa-angle-right"></i> Terms & Conditions</Link>
+                      <Link href="#" > <i className="fa-solid fa-angle-right"></i> Terms & Conditions</Link>
                     </li>
 
                     <li>
-                      <Link href="#" ><i class="fa-solid fa-angle-right"></i> Privacy Policy</Link>
+                      <Link href="#" ><i className="fa-solid fa-angle-right"></i> Privacy Policy</Link>
                     </li>
 
                     <li>
-                      <Link href="/contact-us" ><i class="fa-solid fa-angle-right"></i> Contact Us</Link>
+                      <Link href="/contact-us" ><i className="fa-solid fa-angle-right"></i> Contact Us</Link>
                     </li>
                   </ul>
                 </div>
@@ -69,17 +69,17 @@ export default function Footer() {
                   <h4 className="">Contact Us</h4>
                   <ul>
                     <li className="phn-nmbr">
-                      <i class="fa-solid fa-phone"></i>
+                      <i className="fa-solid fa-phone"></i>
                       <span>+91-9876543210</span>
                     </li>
 
                     <li className="email-adrs">
-                      <i class="fa-solid fa-envelope"></i>
+                      <i className="fa-solid fa-envelope"></i>
                       <span>info@nei.com</span>
                     </li>
 
                     <li className="location-adrs">
-                      <i class="fa-solid fa-location-dot"></i>
+                      <i className="fa-solid fa-location-dot"></i>
                       <span>Dharuhera, Haryana, <br /> India, 141001</span>
                     </li>
 

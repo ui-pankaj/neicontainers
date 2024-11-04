@@ -13,6 +13,10 @@ body {
     font-family: "Poppins", sans-serif !important;
 }
 
+a{
+    text-decoration: none !important;
+}
+
 .main_wrapper {
     padding-top: 66px;
 }
@@ -130,11 +134,6 @@ body {
     // padding: 35px;
     z-index: 5555;
 }
-
-.acoustic-solution.show {
-    // display: block;
-}
-
 .cnnters-list-flex {
     display: flex;
     align-items: center;
@@ -282,7 +281,7 @@ body {
 
 /* Navbar container should be relative */
 .navbar-container {
-    position: relative;
+    // position: relative;
     /* This ensures the mega menu's absolute position is aligned to the body */
     width: 100%;
     margin: 0;
@@ -346,7 +345,7 @@ body {
     top: 51px;
     left: 0;
     /* Align to the left of the body */
-    width: 100vw;
+    width: 100%;
     /* Full screen width */
     background-color: #fff;
     padding: 1rem 5vw;
@@ -641,6 +640,21 @@ body {
 .get-in-touch-sec {
     padding: 50px 0px;
 
+    .get-in-touch-lft {
+        position: relative;
+        img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0px;
+            left: -10%;
+            z-index: 6;
+        }
+        .contact-us-map {
+            position: relative;
+            z-index: 11;
+        }    }
+
     .get-in-touch-rgt {
         padding-left: 30px;
 
@@ -718,6 +732,7 @@ body {
 
 .contact-form-sec {
     padding: 50px 0px;
+    position: relative;
 
     h4 {
         font-size: 40px;
@@ -735,9 +750,28 @@ body {
 
     .rs-form {
         margin-top: 45px;
+        position: relative;
+        z-index: 50;
+
+        .rs-form-group {
+            margin-bottom: 15px !important;
+        }
 
         .rs-form-control {
             width: 100%;
+        }
+
+        .msg-input {
+            height: 150px !important;
+            vertical-align: top !important;
+            line-height: 12px !important;
+        }
+
+        .msg-input::placeholder {
+            line-height: 1px !important;
+            height: 150px !important;
+            vertical-align: top !important;
+            line-height: 12px !important;
         }
 
         .rs-form-control-wrapper {
@@ -754,8 +788,13 @@ body {
     }
 
     .floting-img {
+        position: absolute;
+        right: -140px;
+        top: 140px;
+        z-index: 1;
+
         img {
-            width: 100%;
+            width: 800px;
             height: 100%;
             object-fit: cover;
         }
@@ -767,6 +806,7 @@ body {
         font-weight: 600;
         width: fit-content;
         padding: 12px 55px;
+        border: none !important;
     }
 
 }
@@ -827,6 +867,7 @@ body {
         width: fit-content;
         padding: 10px 55px;
         margin-top: 35px;
+        border: none;
 
     }
 
