@@ -13,7 +13,7 @@ body {
     font-family: "Poppins", sans-serif !important;
 }
 
-a{
+a {
     text-decoration: none !important;
 }
 
@@ -134,6 +134,7 @@ a{
     // padding: 35px;
     z-index: 5555;
 }
+
 .cnnters-list-flex {
     display: flex;
     align-items: center;
@@ -617,7 +618,7 @@ a{
 // contact-us-scss
 
 .contact-hdr {
-    padding: 25px 0px;
+    padding: 85px 0px;
     display: flex;
     gap: 70px;
     align-items: center;
@@ -642,6 +643,7 @@ a{
 
     .get-in-touch-lft {
         position: relative;
+
         img {
             position: absolute;
             width: 100%;
@@ -650,10 +652,12 @@ a{
             left: -10%;
             z-index: 6;
         }
+
         .contact-us-map {
             position: relative;
             z-index: 11;
-        }    }
+        }
+    }
 
     .get-in-touch-rgt {
         padding-left: 30px;
@@ -871,4 +875,185 @@ a{
 
     }
 
+}
+
+.about-us-cntnt {
+    .contact-hdr {
+
+        h1 {
+            color: var(--green-color);
+        }
+
+        p {
+            color: #000;
+        }
+
+    }
+
+    .who-we-are-sec {
+        padding: 65px 0px;
+        background-color: #fff;
+        text-align: center;
+
+        h4 {
+            text-align: center;
+            color: #000;
+            font-weight: 600;
+            font-size: 46px;
+            line-height: 50px;
+            margin-bottom: 25px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #727272;
+            line-height: 30px;
+            padding: 20px 150px;
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            margin-top: 70px;
+            border-radius: 10px;
+
+        }
+    }
+}
+
+.our-service-cards {
+    padding: 65px 0px;
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 100px;
+
+
+    h4 {
+        text-align: center;
+        color: #000;
+        font-weight: 600;
+        font-size: 46px;
+        line-height: 50px;
+        margin-bottom: 120px;
+    }
+
+    .qualities-card {
+        border-radius: 8px 8px 8px 8px;
+        box-shadow: 0 10px 60px -13px rgba(0, 0, 0, .21);
+        padding: 25px 35px;
+        height: auto;
+        position: relative;
+        height: 300px;
+        cursor: pointer;
+
+        &:hover {
+            .quality-icon {
+                transform: scale(1.2);
+                transition: all 0.7s;
+            }
+        }
+
+
+        h5 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            margin-top: 40px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 26px;
+            margin-top: 25px;
+        }
+    }
+
+    .quality-icon {
+        width: 72px;
+        height: 72px;
+        line-height: 72px;
+        border-radius: 50%;
+        background-color: var(--green-color);
+        text-align: center;
+        color: #fff;
+        display: block;
+        padding: 5px;
+        position: absolute;
+        top: -38px;
+        left: 38%;
+
+
+        i {
+            font-size: 35px;
+        }
+    }
+
+}
+
+.what-we-do-sec {
+    padding: 80px 0px;
+    background-color: #f0f0f0;
+
+    h4 {
+        color: #000;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+
+
+    p {
+        font-size: 16px;
+        line-height: 32px;
+        margin-top: 25px;
+        color: var(--text-color);
+        font-weight: 500;
+    }
+
+    .text-green {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    img{
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
+    .exp-img{
+        width: 100%;
+        height: 150px;
+        object-fit: contain;
+        margin-top: 30px;
+    }
+}
+
+.text-green {
+    color: var(--green-color) !important;
+}
+
+.services-point-list {
+    margin-top: 30px;
+    list-style: none;
+    padding-left: 0px;
+
+    li {
+        font-size: 16px;
+        line-height: 32px;
+        color: var(--text-color);
+        font-weight: 500;
+        padding: 3px;
+
+        i {
+            margin-right: 12px;
+            color: var(--green-color);
+            font-size: 10px;
+
+        }
+    }
 }
