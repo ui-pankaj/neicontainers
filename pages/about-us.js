@@ -154,6 +154,95 @@ export default function AboutUs() {
           </div>
 
 
+          <div className="meet-our-team-sec">
+            <div className="container">
+              <h4 className="section-heading">Meet our team</h4>
+
+              <div className="row">
+                <div className="col-sm-3">
+                  <div className="team-member">
+                    <img src="/team-4.jpg" />
+                    <h6>Prateek Bansal</h6>
+                    <p>Founder</p>
+                  </div>
+                </div>
+                <div className="col-sm-3">
+                  <div className="team-member">
+                    <img src="/team-1.jpg" />
+                    <h6>Raghav Singh</h6>
+                    <p>Manager</p>
+                  </div>
+                </div>
+                <div className="col-sm-3">
+                  <div className="team-member">
+                    <img src="/team-2.jpg" />
+                    <h6>Manish Verma</h6>
+                    <p>CTO</p>
+                  </div>
+                </div>
+                <div className="col-sm-3">
+                  <div className="team-member">
+                    <img src="/team-3.jpg" />
+                    <h6>Abhinav Shukla</h6>
+                    <p>Sales Manager</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div className="counter-number-sec">
+            <div className="container">
+              <div className="row">
+                <div className="col-sm-3">
+                  <div className="number-div">
+                    <h6>1500+</h6>
+                    <p>Statisfied Clients</p>
+                  </div>
+                </div>
+                <div className="col-sm-3">
+                  <div className="number-div">
+                    <h6>6500+</h6>
+                    <p>Completed Projects</p>
+                  </div>
+                </div>
+                <div className="col-sm-3">
+                  <div className="number-div">
+                    <h6>10+</h6>
+                    <p>Years of Experience</p>
+                  </div>
+                </div>
+                <div className="col-sm-3">
+                  <div className="number-div">
+                    <h6>35+</h6>
+                    <p>Work in Cities</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="our-mission-vision">
+            <div className="container">
+              <div className="row">
+                <div className="col-sm-4">
+                  <h4 className="section-heading">Our Mission</h4>
+                  <p>Our mission is to design and deliver high-quality, eco-friendly containers that serve a wide range of industries. We’re committed to innovation and sustainability, using materials and processes that minimize environmental impact. Through reliability and integrity, we empower our customers to store, protect, and transport their goods with confidence.</p>
+                </div>
+
+                <div className="col-sm-4">
+                  <img src="/misson-sec-img.svg" />
+                </div>
+
+                <div className="col-sm-4">
+                  <h4 className="section-heading">Our Vision </h4>
+                  <p>Our vision is to be a global leader in sustainable container solutions, setting new standards in innovation, quality, and environmental responsibility. We aim to inspire positive change across industries by continuously improving our products. We envision a future where our containers help build a cleaner, more sustainable.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
 
 
 
