@@ -6,6 +6,7 @@ import Image from "next/image";
 import Footer from "./footer";
 import { Form, Button, ButtonToolbar, Schema, Panel } from 'rsuite';
 
+
 const { StringType } = Schema.Types;
 const model = Schema.Model({
   name: StringType().isRequired('This field is required.'),
@@ -26,6 +27,7 @@ function TextField(props) {
 
 export default function AboutUs() {
 
+
   return (
     <>
       <Head>
@@ -39,12 +41,15 @@ export default function AboutUs() {
         {/* header-end */}
 
         <div className="about-us-cntnt">
-          <div className="container">
+          <div className="top-banner-bg">
             <div className="contact-hdr">
               <h1>About Us</h1>
               <p>Welcome to National Engineering Industries , where quality meets innovation. <br /> With years of experienceand a commitment to excellence, we specialize in providing  <br /> top-notch manufacturing solutions tailored to   meet the needs of our clients.</p>
 
             </div>
+          </div>
+          <div className="container">
+
           </div>
 
           <div className="who-we-are-sec">
@@ -52,7 +57,7 @@ export default function AboutUs() {
 
               <h4>Who we are</h4>
               <p>Established in the year 2007, National Engineering Industries in Dharuhera is a top player in the category in the Shipping Containers, Cargo Containers, Acoustic Containers, Acoustic Enclosure, Porta Cabin Manufacturers in the Dharuhera. This well known establishment acts as a one-stop destination servicing customers both local and from other parts of India. Over the course of its journey, this business has established a firm foothold in it’ s industry. The belief that customer satisfaction is as important as their products and services, have helped this establishment garner a vast base of customers, which continues to grow by the day.
-                Our Products</p>
+               </p>
 
               <img src="/who-we-are.jpg" />
             </div>
@@ -142,6 +147,7 @@ export default function AboutUs() {
 
                   <div className="mt-4">
                     <button className="theme-btn">Contact Us</button>
+                    <button className="theme-btn-hollow ms-4">See Products</button>
                   </div>
 
                 </div>
@@ -243,10 +249,51 @@ export default function AboutUs() {
             </div>
           </div>
 
+          <div className="about-contact-sec">
+
+            <div className="container">
+              <div className="about-cntnt-contact">
+                <div>
+
+                  <p>Interested in a specific service?</p>
+                  <h4>Dedicated To Providing Top-Quality <br /> Services To Our Clients.</h4>
+                  <button className="theme-btn mt-4">Contact Us</button>
+                  <button className="theme-btn-hollow mt-4 ms-4">See Products</button>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div className="our-partner-sec">
+            <div className="container">
+              <h4 className="section-heading">Our Clients</h4>
 
 
+              <div class="marquee">
+                <div class="marquee-content">
+                  <img src="/sudhir.png" />
+                  <img src="/noida-diesel-power-services.png" />
+                  <img src="/national-deisel-generators.png" />
+                  <img src="/gls-group.png" />
+                  <img src="/ofr-telecom.png" />
+                  <img src="/bhiwadi-cyliders.png" />
+                  <img src="/indospace.png" />
+                  {/* <!-- Duplicate images for seamless loop --> */}
+                  <img src="/sudhir.png" />
+                  <img src="/noida-diesel-power-services.png" />
+                  <img src="/national-deisel-generators.png" />
+                  <img src="/gls-group.png" />
+                  <img src="/ofr-telecom.png" />
+                  <img src="/bhiwadi-cyliders.png" />
+                  <img src="/indospace.png" />
+                </div>
+              </div>
 
 
+            </div>
+          </div>
 
 
 
