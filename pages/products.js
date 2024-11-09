@@ -132,8 +132,7 @@ export default function Products() {
 
                 <div>
                   <div className="btn-sec">
-                    <button className="theme-btn">Contact Us</button>
-                    <button className="theme-btn-hollow">Learn More</button>
+                    <button className="theme-btn">Learn More</button>
                   </div>
                 </div>
 
@@ -218,8 +217,7 @@ export default function Products() {
 
                 <div>
                   <div className="btn-sec">
-                    <button className="theme-btn">Contact Us</button>
-                    <button className="theme-btn-hollow">Learn More</button>
+                    <button className="theme-btn">Learn More</button>
                   </div>
                 </div>
 
