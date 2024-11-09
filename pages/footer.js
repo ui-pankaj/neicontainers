@@ -33,7 +33,7 @@ export default function Footer() {
                     </li>
 
                     <li>
-                      <Link href="#" ><i className="fa-solid fa-angle-right"></i> Products</Link>
+                      <Link href="/products" ><i className="fa-solid fa-angle-right"></i> Products</Link>
                     </li>
 
                     <li>
