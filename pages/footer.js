@@ -47,13 +47,13 @@ export default function Footer() {
                   <h4 className="">Support</h4>
                   <ul>
                     <li>
-                      <Link href="#" > <i className="fa-solid fa-angle-right"></i> Shipping Policy</Link>
+                      <Link href="/shipping-policy" > <i className="fa-solid fa-angle-right"></i> Shipping Policy</Link>
                     </li>
 
                     <li>
-                      <Link href="#" > <i className="fa-solid fa-angle-right"></i> Terms & Conditions</Link>
+                      <Link href="/terms-conditions" > <i className="fa-solid fa-angle-right"></i> Terms & Conditions</Link>
                     </li>
-
+    
                     <li>
                       <Link href="#" ><i className="fa-solid fa-angle-right"></i> Privacy Policy</Link>
                     </li>
