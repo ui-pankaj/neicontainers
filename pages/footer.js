@@ -55,7 +55,7 @@ export default function Footer() {
                     </li>
     
                     <li>
-                      <Link href="#" ><i className="fa-solid fa-angle-right"></i> Privacy Policy</Link>
+                      <Link href="/privacy-policy" ><i className="fa-solid fa-angle-right"></i> Privacy Policy</Link>
                     </li>
 
                     <li>
