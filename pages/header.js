@@ -42,7 +42,9 @@ export default function Header() {
 
               <nav className="navbar">
                 <div className="main-logo">
-                  <img src="/nei-text-logo.svg" />
+                  <Link href="/">
+                    <img src="/nei-text-logo.svg" />
+                  </Link>
                 </div>
                 <ul className="nav-list">
                   <li className="nav-item">
