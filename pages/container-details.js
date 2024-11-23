@@ -68,9 +68,8 @@ export default function Products() {
                   </span>
 
                 </div>
-                <div className="btn-sec">
-                  <button className="theme-btn">Learn More</button>
-                  <button className="theme-btn-hollow">Get Estimate</button>
+                <div className="text-center">
+                  <button className="theme-btn">Get Estimate</button>                  
                 </div>
               </div>
 
@@ -224,6 +223,154 @@ export default function Products() {
 
 
 
+          </div>
+
+          <div className="specifications-sec">
+            <div className="container">
+              <h2>Shipping Container Specs</h2>
+
+              <div className="mt-5">
+
+                <h4>General Overview</h4>
+                <div className="row">
+                  <div className="col-sm-4">
+                    <p>Type</p>
+                    <h6>High Cube</h6>
+                  </div>
+                  <div className="col-sm-4">
+                    <p>Dimensions (Length, Width, Height)</p>
+                    <h6>10 Ft, 60 ft, 12 ft  </h6>
+                  </div>
+                  <div className="col-sm-4">
+                    <p>Capacity</p>
+                    <h6>1200 cubic ft</h6>
+                  </div>
+
+
+                </div>
+              </div>
+
+              <div className="mt-5">
+                <h4>Weight</h4>
+                <div className="row">
+                  <div className="col-sm-4">
+                    <p>Empty/Tare Weight</p>
+                    <h6>260 Kg</h6>
+                  </div>
+                  <div className="col-sm-4">
+                    <p>Maximum Gross Weight</p>
+                    <h6>1200 kg </h6>
+                  </div>
+                  <div className="col-sm-4">
+                    <p>Payload Capacity</p>
+                    <h6>2000 kg</h6>
+                  </div>
+                </div>
+              </div>
+
+              <hr />
+
+              <div className="mt-4">
+                <div className="row align-items-center">
+                  <div className="col-sm-8">
+                    <div className=" mt-2">
+                      <h4>Material & Build</h4>
+                      <div className="row">
+                        <div className="col-sm-3">
+                          <p>Material</p>
+                          <h6>Corten Steel</h6>
+                        </div>
+                        <div className="col-sm-3">
+                          <p>Flooring</p>
+                          <h6>Marine-grade plywood </h6>
+                        </div>
+                        <div className="col-sm-3">
+                          <p>Finish</p>
+                          <h6>Rust-proof coating</h6>
+                        </div>
+                        <div className="col-sm-3">
+                          <p>Door Type</p>
+                          <h6>Double</h6>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="mt-5">
+                      <h4>Features</h4>
+                      <div className="row">
+                        <div className="col-sm-3">
+                          <p>Ventilation</p>
+                          <h6>10 Vents</h6>
+                        </div>
+                        <div className="col-sm-3">
+                          <p>Weatherproofing</p>
+                          <h6>Wind and watertight, insulation options</h6>
+                        </div>
+                        <div className="col-sm-3">
+                          <p>Reinforcements</p>
+                          <h6>Rust-proof coating</h6>
+                        </div>
+                        <div className="col-sm-3">
+                          <p>Customizations Available</p>
+                          <h6>Windows, Shelves, Electric fittings</h6>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="mt-5">
+                      <h4>Standards & Certifications</h4>
+                      <div className="row">
+                        <div className="col-sm-3">
+                          <p>Certifications</p>
+                          <h6>ISO Certifications</h6>
+                        </div>
+                        <div className="col-sm-3">
+                          <p>Certification</p>
+                          <h6>CSC Certification</h6>
+                        </div>
+                        <div className="col-sm-3">
+                          <p>Certification</p>
+                          <h6>Fire Retardant Specifications</h6>
+                        </div>
+                       
+                      </div>
+                    </div>
+
+
+                  </div>
+
+                  <div className="col-sm-4">
+                      <img src="/demo-info-car.png" />
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-5">
+                <h4>Applications</h4>
+                <div className="row">
+                  <div className="col-sm-3">
+                    <p>Business</p>
+                    <h6>Shipping and logistics</h6>
+                  </div>
+                  <div className="col-sm-3">
+                    <p>Home</p>
+                    <h6>Modular buildings (homes, offices, etc.)</h6>
+                  </div>
+                  <div className="col-sm-3">
+                    <p>Storage</p>
+                    <h6>Storage solutions</h6>
+                  </div>
+                </div>
+              </div>
+
+              <hr />
+
+              <div className="text-center p-5 pb-0">
+              <button className="theme-btn-hollow">Get Estimate</button>
+              </div>
+
+
+            </div>
           </div>
 
 
