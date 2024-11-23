@@ -40,10 +40,11 @@ export default function Products() {
 
         <div className="product-details-cntnt">
           <section className="home-img-section">
-            <Image src="/model-3.png" alt="Acoustic Container"
+            {/* <Image src="/model-3.png" alt="Acoustic Container"
               width={2500}
               height={620}
-              quality={100} />
+              quality={100} /> */}
+              <img src="/model-3.png" />
             <div className="img-section-content">
               <div>
                 <h1>Model 3 Performance</h1>
