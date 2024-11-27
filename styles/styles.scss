@@ -1564,3 +1564,78 @@ a {
     }
 
 }
+
+.get-estimate-page{
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container{
+        padding: 50px 20px;
+
+        img{
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        h2{
+            font-size: 28px;
+            color: #fff;
+            font-weight: 600;
+            line-height: 30px;
+            text-align: center;
+            margin-bottom: 18px;
+        }
+
+        h6{
+            font-size: 18px;
+            color: #fff;
+            font-weight: 400;
+            line-height: 25px;
+            text-align: center;
+            width: 60%;
+            margin: 0px auto 30px auto;
+        }
+    }
+}
+
+.form-estimate{
+    .rs-form{
+        .rs-form-control-label, p{
+            font-size: 15px;
+            color: #d0d1d2;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+        .rs-input{
+            width: 100%;
+            background-color: #222222;
+            height: 40px;
+            color: #fff;
+        }
+
+        .rs-form-control{
+            display: block;
+            width: 100%;
+        }
+
+        .rs-picker-select{
+            width: 100%;
+            height: 40px;
+        }
+
+        .rs-picker-toggle{
+            height: 40px;
+            width: 100%;
+            background-color: #222 !important;
+        }
+
+        .rs-picker-toggle-value{
+            color: #fff !important;
+        }
+    }
+}
