@@ -52,7 +52,7 @@ export default function Header() {
 
                     {/* mega-menu */}
                     <div className="mega-menu">
-                      <AccousticSolutionMenu></AccousticSolutionMenu>
+                      <AccousticSolutionMenu />
                     </div>
                     {/* mega-menu */}
 

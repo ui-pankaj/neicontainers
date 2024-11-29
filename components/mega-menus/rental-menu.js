@@ -10,7 +10,7 @@ export default function RentalMenu() {
 
       </Head>
 
-      <div className="cargo-containers-mega-menu">
+      <div className="cargo-containers-mega-menu rental-mega-menu">
         <div className="acoustic-solution">
           <div className="acoustic-megamenu-sec
               ">
@@ -19,48 +19,19 @@ export default function RentalMenu() {
               <div className="row justify-content-center">
                 <div className="col-sm-11 mb-5">
                   <div className="cnnters-list-flex">
-                    <div className="cnnter-div">
-                      <Image src="/cnntr-1.jpg" alt="Acoustic Container" width={500} height={300} priority />
 
-                      <h6 className="cnnter-div-heading">Acoustic Container</h6>
+                    <div className="cnnter-div">
+                      <Image src="/containers/generators-sets.jpg" alt="Generators Sets" width={500} height={300} priority />
+
+                      <h6 className="cnnter-div-heading">Generators Sets</h6>
 
                     </div>
                     <div className="cnnter-div">
-                      <Image src="/cnntr-2.jpg" alt="Acoustic Container" width={500} height={300} priority />
-                      <h6 className="cnnter-div-heading">Transformer Container</h6>
+                      <Image src="/containers/porta-cabin.webp" alt="Porta Office" width={500} height={300} priority />
+                      <h6 className="cnnter-div-heading">Porta Office</h6>
 
                     </div>
-                    <div className="cnnter-div">
-                      <Image src="/cnntr-3.jpg" alt="Acoustic Container" width={500} height={300} priority />
-                      <h6 className="cnnter-div-heading">Heavy Machinery Container</h6>
-
-                    </div>
-                    <div className="cnnter-div">
-                      <Image src="/cnntr-1.jpg" alt="Acoustic Container" width={500} height={300} priority />
-
-                      <h6 className="cnnter-div-heading">Acoustic Container</h6>
-
-                    </div>
-                    <div className="cnnter-div">
-                      <Image src="/cnntr-2.jpg" alt="Acoustic Container" width={500} height={300} priority />
-                      <h6 className="cnnter-div-heading">Transformer Container</h6>
-
-                    </div>
-                    <div className="cnnter-div">
-                      <Image src="/cnntr-3.jpg" alt="Acoustic Container" width={500} height={300} priority />
-                      <h6 className="cnnter-div-heading">Heavy Machinery Container</h6>
-
-                    </div>
-                    <div className="cnnter-div">
-                      <Image src="/cnntr-3.jpg" alt="Acoustic Container" width={500} height={300} priority />
-                      <h6 className="cnnter-div-heading">Heavy Machinery Container</h6>
-
-                    </div>
-                    <div className="cnnter-div">
-                      <Image src="/cnntr-3.jpg" alt="Acoustic Container" width={500} height={300} priority />
-                      <h6 className="cnnter-div-heading">Heavy Machinery Container</h6>
-
-                    </div>
+                 
 
                   </div>
 

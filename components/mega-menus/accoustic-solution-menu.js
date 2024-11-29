@@ -19,27 +19,27 @@ export default function AccousticSolutionMenu() {
                       <div className="col-sm-8">
                         <div className="cnnters-list-flex">
                           <div className="cnnter-div">
-                            <Image src="/cnntr-1.jpg" alt="Acoustic Container" width={500} height={300} priority
+                            <Image src="/containers/acoustic-container.jpg" alt="Acoustic Container" width={500} height={300} priority
                               />
+                            <Link href="#">
 
                             <h6 className="cnnter-div-heading">Acoustic Container</h6>
-                            <Link href="#">
-                            <p className="lrn-more">Learn More</p>
+                          
                             </Link>
                           </div>
                           <div className="cnnter-div">
-                            <Image src="/cnntr-2.jpg" alt="Acoustic Container" width={500} height={300} priority
+                            <Image src="/containers/containers-heavy-red.jpg" alt="Transformer Container" width={500} height={300} priority
                                />
-                            <h6 className="cnnter-div-heading">Transformer Container</h6>
                             <Link href="#">
-                            <p className="lrn-more">Learn More</p>
+                            <h6 className="cnnter-div-heading">Transformer Container</h6>
+                            {/* <p className="lrn-more">Learn More</p> */}
                             </Link>
                           </div>
                           <div className="cnnter-div">
-                            <Image src="/cnntr-3.jpg" alt="Acoustic Container" width={500} height={300} priority />
-                            <h6 className="cnnter-div-heading">Heavy Machinery Container</h6>
+                            <Image src="/containers/green-acoustic.webp" alt="Heavy Machaniery Container" width={500} height={300} priority />
                             <Link href="#">
-                            <p className="lrn-more">Learn More</p>
+                            <h6 className="cnnter-div-heading">Heavy Machinery Container</h6>
+                           
                             </Link>
                           </div>
 
