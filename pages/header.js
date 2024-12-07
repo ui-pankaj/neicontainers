@@ -10,6 +10,32 @@ import 'rsuite/dist/rsuite.min.css';
 
 export default function Header() {
 
+  const [scrolled, setScrolled] = useState(false);
+  const [hovered, setHovered] = useState(false);
+
+  const handleMouseEnter = () => setHovered(true);
+  const handleMouseLeave = () => setHovered(false);
+
+  const headerClass = `header${scrolled ? " scrolled" : ""}${
+    hovered ? " hovered" : ""
+  }`;
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <>
       <Head>
@@ -33,8 +59,8 @@ export default function Header() {
 
       {/* Header-start */}
 
-      <header>
-        <div className="navbar-container header-sec">
+      <header  className={headerClass}>
+        <div className="navbar-container header-sec" >
 
           <div className="position-relative w-100">
 
@@ -47,7 +73,7 @@ export default function Header() {
                   </Link>
                 </div>
                 <ul className="nav-list">
-                  <li className="nav-item">
+                  <li className="nav-item" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                     <a href="#">Acoustic Solutions</a>
 
                     {/* mega-menu */}
@@ -57,7 +83,7 @@ export default function Header() {
                     {/* mega-menu */}
 
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                     <a href="#">Cargo Containers</a>
 
                     {/* mega-menus */}
@@ -67,7 +93,7 @@ export default function Header() {
                     {/* mega-menus */}
 
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                     <a href="#">Porta Cabin</a>
 
                     {/* mega-menus */}
@@ -77,7 +103,7 @@ export default function Header() {
                     {/* mega-menus */}
 
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                     <a href="#">Rental</a>
 
                     {/* mega-menus */}
@@ -91,12 +117,12 @@ export default function Header() {
                 </ul>
                 <div className="main-menu-right">
                   <ul className="menu-icons">
-                    <li>
+                    {/* <li>
                       <Link href="#"><span><img src="/info.svg" /></span></Link>
                     </li>
                     <li>
                       <Link href="#"><span><img src="/circle-phone.svg" /></span></Link>
-                    </li>
+                    </li> */}
 
                   </ul>
                 </div>
