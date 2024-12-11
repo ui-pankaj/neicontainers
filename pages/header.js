@@ -84,7 +84,7 @@ export default function Header() {
 
                   </li>
                   <li className="nav-item" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                    <a href="#">Cargo Containers</a>
+                    <a href="#">Shipping Containers</a>
 
                     {/* mega-menus */}
                     <div className="mega-menu">

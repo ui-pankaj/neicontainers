@@ -48,7 +48,7 @@ export default function Home() {
                 quality={100} />
               <div className="img-section-content">
                 <div>
-                  <h1>Model Y </h1>
+                  <h1>Acoustic Containers</h1>
                   <p>0% APR With Purchase of FSD</p>
                 </div>
 
@@ -70,7 +70,7 @@ export default function Home() {
                 quality={100} />
               <div className="img-section-content">
                 <div>
-                  <h1>Model Y </h1>
+                  <h1>Shipping Containers</h1>
                   <p>0% APR With Purchase of FSD</p>
                 </div>
 
@@ -93,7 +93,7 @@ export default function Home() {
                 quality={100} />
               <div className="img-section-content">
                 <div>
-                  <h1>Model Y </h1>
+                  <h1>Porta Cabins </h1>
                   <p>0% APR With Purchase of FSD</p>
                 </div>
 
@@ -115,7 +115,7 @@ export default function Home() {
                 quality={100} />
               <div className="img-section-content">
                 <div>
-                  <h1>Model Y </h1>
+                  <h1>Rentals</h1>
                   <p>0% APR With Purchase of FSD</p>
                 </div>
 
