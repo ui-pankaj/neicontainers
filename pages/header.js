@@ -117,6 +117,10 @@ export default function Header() {
                 </ul>
                 <div className="main-menu-right">
                   <ul className="menu-icons">
+                  <Link href="/contact-us">
+                      <button className="theme-btn-hollow">Contact Us</button>
+                      <button className="theme-btn">Contact Us</button>
+                    </Link>
                     {/* <li>
                       <Link href="#"><span><img src="/info.svg" /></span></Link>
                     </li>

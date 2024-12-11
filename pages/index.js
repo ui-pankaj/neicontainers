@@ -22,11 +22,19 @@ export default function Home() {
         {/* hero-sec-start */}
         <div className="hero-sec">
           <div className="img-layer"></div>
-          <img src="/hero-img.png" className="" />
-          <h1 className="hero-title">National Engineering Industries</h1>
-          <div className="btn-sec">
-            <button className="theme-btn">Contact Us</button>
-            <button className="theme-btn-hollow">See Products</button>
+          <div className="hero-sec-cntnt">
+            <h1 className="hero-title">National Engineering Industries</h1>
+            <h4>Crafting Custom <span>Containers </span> </h4>
+            <p> Manufacturers of premium shipping containers, Acoustic containers for generators and portable Cabins made to simplify your operation and space planning.</p>
+            <div className="btn-sec">
+              <Link href="/contact-us">
+                <button className="theme-btn">Contact Us</button>
+              </Link>
+
+              <Link href="/products">
+                <button className="theme-btn-hollow">See Products</button>
+              </Link>
+            </div>
           </div>
         </div>
         {/* hero-sec-end */}
@@ -80,28 +88,6 @@ export default function Home() {
 
             <section className="home-img-section">
               <Image src="/car-img-3.jpeg" alt="Acoustic Container"
-                width={2500}
-                height={620}
-                quality={100} />
-              <div className="img-section-content">
-                <div>
-                  <h1>Model Y </h1>
-                  <p>0% APR With Purchase of FSD</p>
-                </div>
-
-                <div>
-                  <div className="btn-sec">
-                    <button className="theme-btn">Contact Us</button>
-                    <button className="theme-btn-hollow">Learn More</button>
-                  </div>
-                </div>
-
-
-              </div>
-            </section>
-
-            <section className="home-img-section">
-              <Image src="/car-img-4.jpeg" alt="Acoustic Container"
                 width={2500}
                 height={620}
                 quality={100} />
@@ -194,28 +180,29 @@ export default function Home() {
             </section>
 
             <section className="home-img-section mb-5" >
-              <video src="/home-vdo-bottom.mp4"
+              <video src="/containers-videos-home.mp4"
                 autoPlay
                 muted
                 loop
                 playsInline />
               <div className="img-section-content">
                 <div>
-                  <h1>Model Y </h1>
-                  <p>0% APR With Purchase of FSD</p>
+
                 </div>
+
 
                 <div>
                   <div className="btn-sec">
-                    <button className="theme-btn">Contact Us</button>
-                    <button className="theme-btn-hollow">Learn More</button>
+                    <Link href="/contact-us">
+                      <button className="theme-btn-hollow">Contact Us</button>
+                    </Link>
                   </div>
                 </div>
 
 
               </div>
             </section>
-            
+
           </div>
         </div>
 
