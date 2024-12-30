@@ -38,7 +38,7 @@ export default function ContactUs() {
         <Header></Header>
         {/* header-end */}
 
-        <div className="contact-us-cntnt bg-theme-green">
+        <div className="contact-us-cntnt bg-theme-black">
           <div className="container">
             <div className="contact-hdr">
               <h1>Contact</h1>
@@ -48,7 +48,7 @@ export default function ContactUs() {
 
             <div className="get-in-touch-sec">
               <div className="row">
-                <div className="col-sm-8">
+                <div className="col-lg-8 col-md-8 col-sm-12">
                   <div className="get-in-touch-lft">
                     <img src="/nei-text-logo-yellow.svg" className="ylow-bg-logo" />
                     <div className="contact-us-map">
@@ -64,7 +64,7 @@ export default function ContactUs() {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-4">
+                <div className="col-lg-4 col-md-4 col-sm-12">
                   <div className="get-in-touch-rgt">
                     <h4>Get In Touch</h4>
                     <p>We’d love to hear from you! Whether you have a question, feedback, feel free to reach out.</p>

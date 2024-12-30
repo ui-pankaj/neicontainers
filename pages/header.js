@@ -16,9 +16,8 @@ export default function Header() {
   const handleMouseEnter = () => setHovered(true);
   const handleMouseLeave = () => setHovered(false);
 
-  const headerClass = `header${scrolled ? " scrolled" : ""}${
-    hovered ? " hovered" : ""
-  }`;
+  const headerClass = `header${scrolled ? " scrolled" : ""}${hovered ? " hovered" : ""
+    }`;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -59,86 +58,85 @@ export default function Header() {
 
       {/* Header-start */}
 
-      <header  className={headerClass}>
-        <div className="navbar-container header-sec" >
+      <section className="desktop-header">
+        <header className={headerClass}>
+          <div className="navbar-container header-sec" >
 
-          <div className="position-relative w-100">
+            <div className="position-relative w-100">
 
-            <div className="container-fluid">
+              <div className="container-fluid">
 
-              <nav className="navbar">
-                <div className="main-logo">
-                  <Link href="/">
-                    <img src="/nei-text-logo.svg" />
-                  </Link>
-                </div>
-                <ul className="nav-list">
-                  <li className="nav-item" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                    <a href="#">Acoustic Solutions</a>
-
-                    {/* mega-menu */}
-                    <div className="mega-menu">
-                      <AccousticSolutionMenu />
-                    </div>
-                    {/* mega-menu */}
-
-                  </li>
-                  <li className="nav-item" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                    <a href="#">Shipping Containers</a>
-
-                    {/* mega-menus */}
-                    <div className="mega-menu">
-                      <CargoContainersMenu />
-                    </div>
-                    {/* mega-menus */}
-
-                  </li>
-                  <li className="nav-item" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                    <a href="#">Porta Cabin</a>
-
-                    {/* mega-menus */}
-                    <div className="mega-menu">
-                      <PortaCabinMenu />
-                    </div>
-                    {/* mega-menus */}
-
-                  </li>
-                  <li className="nav-item" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                    <a href="#">Rental</a>
-
-                    {/* mega-menus */}
-                    <div className="mega-menu">
-                      <RentalMenu />
-                    </div>
-                    {/* mega-menus */}
-
-                  </li>
-
-                </ul>
-                <div className="main-menu-right">
-                  <ul className="menu-icons">
-                  <Link href="/contact-us">
-                      <button className="theme-btn-hollow">Contact Us</button>
-                      <button className="theme-btn">Contact Us</button>
+                <nav className="navbar">
+                  <div className="main-logo">
+                    <Link href="/">
+                      <img src="/nei-text-logo.svg" />
                     </Link>
-                    {/* <li>
+                  </div>
+                  <ul className="nav-list">
+                    <li className="nav-item" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                      <a href="#">Acoustic Solutions</a>
+
+                      {/* mega-menu */}
+                      <div className="mega-menu">
+                        <AccousticSolutionMenu />
+                      </div>
+                      {/* mega-menu */}
+
+                    </li>
+                    <li className="nav-item" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                      <a href="#">Shipping Containers</a>
+
+                      {/* mega-menus */}
+                      <div className="mega-menu">
+                        <CargoContainersMenu />
+                      </div>
+                      {/* mega-menus */}
+
+                    </li>
+                    <li className="nav-item" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                      <a href="#">Porta Cabin</a>
+
+                      {/* mega-menus */}
+                      <div className="mega-menu">
+                        <PortaCabinMenu />
+                      </div>
+                      {/* mega-menus */}
+
+                    </li>
+                    <li className="nav-item" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                      <a href="#">Rental</a>
+
+                      {/* mega-menus */}
+                      <div className="mega-menu">
+                        <RentalMenu />
+                      </div>
+                      {/* mega-menus */}
+
+                    </li>
+
+                  </ul>
+                  <div className="main-menu-right">
+                    <ul className="menu-icons">
+                      <Link href="/contact-us">
+                        <button className="theme-btn-hollow">Contact Us</button>
+                        <button className="theme-btn">Contact Us</button>
+                      </Link>
+                      {/* <li>
                       <Link href="#"><span><img src="/info.svg" /></span></Link>
                     </li>
                     <li>
                       <Link href="#"><span><img src="/circle-phone.svg" /></span></Link>
                     </li> */}
 
-                  </ul>
-                </div>
-              </nav>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
             </div>
           </div>
-        </div>
 
-      </header>
-
-
-
+        </header>
+      </section>
     </>
   );
 }

@@ -1,0 +1,265 @@
+// responsive-style-sheet
+// 12-12-2024
+// pankaj
+
+@media screen and (max-width: 1199px) {}
+
+@media screen and (max-width: 1024px) {
+
+    .theme-btn,
+    .theme-btn-hollow {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .desktop-header {
+        display: none;
+    }
+
+    // .mobile-header{
+    //     display: block;
+    // }
+
+    .home-img-section {
+        height: 420px;
+        min-height: 420px;
+        width: unset;
+
+        .img-section-content {
+            h1 {
+
+                font-size: 32px;
+                line-height: 40px;
+            }
+            p{
+                font-size: 18px;
+                line-height: 25px;
+            }
+        }
+    }
+
+    .container {
+        max-width: 900px;
+    }
+
+    .build-sec{
+        h4{
+            font-size: 42px;
+            line-height: 52px;
+        }
+    }
+}
+
+@media (max-width: 834px) {}
+
+@media (max-width: 812px) {}
+
+@media (max-width: 768px) {
+    .hero-sec{
+        .hero-title{
+            font-size: 32px;
+        }
+
+        .hero-sec-cntnt{
+            h4{
+                font-size: 21px;
+                line-height: 25px;
+            }
+
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+
+    .contact-hdr{
+        h1{
+            font-size: 42px;
+        }
+
+        p{
+            br{
+                display: none;
+            }
+        }
+    }
+
+    .build-sec{
+        h4 {
+            font-size: 36px;
+            line-height: 48px;
+
+            br{
+                display: none;
+            }
+        }
+    }
+
+    .get-in-touch-sec{
+        padding-top: 0px;
+    }
+
+    .get-in-touch-sec{
+        .get-in-touch-rgt{
+            h4 {
+                 margin-top: 32px;       
+            }
+        }
+    }
+   
+}
+
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 640px) {}
+
+@media (max-width: 576px) {
+
+    .home-img-section{
+        padding: 25px 15px 25px;
+    }
+    .img-section-content{
+        .btn-sec{
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+    }
+
+    .contact-hdr{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-img-section{
+        height: 350px;
+        min-height: 350px;
+        margin: 30px 15px 0px;
+
+        .img-section-content{
+          h1{
+            font-size: 24px;
+            line-height: 30px;
+          }
+        }
+    }
+
+    .contact-us-map{
+        padding-left: 0px;
+    }
+
+    .contact-form-sec{
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .contact-hdr{
+        h1{
+            font-size: 32px;
+            line-height: 42px;
+        }
+
+        p{
+            line-height: 24px;
+        }
+    }
+
+    .hero-sec{
+        .hero-sec-cntnt{
+            padding: 20px;
+            margin-top: 10px;
+
+            h1{
+                font-size: 28px;
+            }
+
+            p{
+                width: 100%;
+            }
+
+            .btn-sec{
+                flex-wrap: wrap;
+                margin-top: 30px;
+                gap: 10px;
+            }
+        }
+    }
+
+    .theme-btn,
+    .theme-btn-hollow {
+        width: 180px;
+        font-size: 14px;
+    }
+    
+    .build-sec{
+        h4 {
+            font-size: 28px;
+            line-height: 40px;
+
+        
+        }
+    }
+
+    .contact-form-sec{
+        h4 {
+            font-size: 28px;
+            line-height: 40px;        
+        }
+    }
+
+    .get-in-touch-sec{
+        .get-in-touch-rgt{
+            h4 {
+                  font-size: 28px;
+               line-height: 40px;        
+            }
+        }
+    }
+}
+
+@media (max-width: 414px) {}
+
+@media (max-width: 375px) {}
+
+@media (max-width: 360px) {
+    .hero-sec{
+        .hero-sec-cntnt{
+            padding: 10px;
+            margin-top: 10px;
+
+            h1{
+                font-size: 24px;
+            }
+
+            h4{
+                font-size: 18px;
+            }
+
+        }
+    }
+
+    .home-img-section{
+
+        .img-section-content{
+            h1{
+              font-size: 21px;
+              line-height: 25px;
+            }
+
+            p{
+                font-size: 16px;
+            }
+          }
+    }
+}
+
+@media (max-width: 320px) {}

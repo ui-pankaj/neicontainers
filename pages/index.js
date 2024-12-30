@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { useState, useEffect } from 'react';
 import Header from "./header";
+import MobileHeader from "./mobile-header";
 import Link from "next/link";
 import Image from "next/image";
 import Footer from "./footer";
@@ -16,7 +17,8 @@ export default function Home() {
       <main className="main_wrapper home-page">
 
         {/* header-start */}
-        <Header></Header>
+        <Header />
+        <MobileHeader />
         {/* header-end */}
 
         {/* hero-sec-start */}
@@ -131,7 +133,7 @@ export default function Home() {
             </section>
 
             <section className="row">
-              <div className="col-sm-6">
+              <div className="col-sm-12 col-lg-6 col-md-12">
                 <section className="home-img-section">
                   <Image src="/home-lft-1.jpeg" alt="Acoustic Container"
                     width={2500}
@@ -154,7 +156,7 @@ export default function Home() {
                   </div>
                 </section>
               </div>
-              <div className="col-sm-6">
+              <div className="col-sm-12 col-lg-6 col-md-12">
                 <section className="home-img-section">
                   <Image src="/home-rgt-2.jpeg" alt="Acoustic Container"
                     width={2500}
